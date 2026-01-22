@@ -31,7 +31,7 @@ I am a **Computer Engineering student** who enjoys building projects, learning b
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CanerCakal/CanerCakal/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/CanerCakal/CanerCakal/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
 ## 🌐 Connect With Me
