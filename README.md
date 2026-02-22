@@ -22,12 +22,6 @@ I am a **Computer Engineering student** who enjoys building projects, learning b
   <img src="https://skillicons.dev/icons?i=c,git,github,docker,mysql,swift" />
 </p>
 
-## 📊 GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CanerCakal&layout=compact&theme=tokyonight" />
-</p>
-
 ## 🐍 Contribution Snake
 
 <p align="center">
