@@ -1,0 +1,90 @@
+<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, SF Pro Display, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="900" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a0e1a"/><stop offset="1" stop-color="#0d1424"/>
+    </linearGradient>
+    <linearGradient id="acc2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F05138"/><stop offset="1" stop-color="#0A84FF"/>
+    </linearGradient>
+    <clipPath id="c2"><rect x="1" y="1" width="898" height="298" rx="22"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="898" height="298" rx="22" fill="url(#bg2)" stroke="#1c2740" stroke-width="1.5"/>
+  <g clip-path="url(#c2)">
+    <g stroke="#141e33" stroke-width="1">
+      <line x1="0" y1="75" x2="900" y2="75"/><line x1="0" y1="150" x2="900" y2="150"/><line x1="0" y1="225" x2="900" y2="225"/>
+    </g>
+
+    <!-- header row -->
+    <text x="40" y="52" fill="#ffffff" font-size="22" font-weight="800">Tech Stack</text>
+    <rect x="40" y="62" width="52" height="3" rx="1.5" fill="url(#acc2)"/>
+
+    <!-- LANGUAGES -->
+    <text x="40" y="108" fill="#5a6b8c" font-size="13" font-weight="700" letter-spacing="2">LANGUAGES</text>
+
+    <!-- Swift -->
+    <g transform="translate(40,124)">
+      <rect width="150" height="46" rx="12" fill="#12203a" stroke="#F05138" stroke-width="1.2"/>
+      <circle cx="30" cy="23" r="13" fill="#F05138"/>
+      <path d="M24 29 C24 29 22 24 26 20 C30 16 35 16 35 16 C35 16 34 20 32 22 C34 21 36 22 36 22 C36 22 34 25 30 26 C33 26 34 26 34 26 C34 26 31 29 27 29 C25 29 24 29 24 29Z" fill="#fff"/>
+      <text x="56" y="29" fill="#ff8a75" font-size="16" font-weight="700">Swift</text>
+    </g>
+    <!-- C# -->
+    <g transform="translate(202,124)">
+      <rect width="120" height="46" rx="12" fill="#12203a" stroke="#512BD4" stroke-width="1.2"/>
+      <circle cx="30" cy="23" r="13" fill="#512BD4"/>
+      <text x="30" y="28" fill="#fff" font-size="13" font-weight="800" text-anchor="middle">#</text>
+      <text x="56" y="29" fill="#b9a5f0" font-size="16" font-weight="700">C#</text>
+    </g>
+    <!-- Python -->
+    <g transform="translate(334,124)">
+      <rect width="150" height="46" rx="12" fill="#12203a" stroke="#3776AB" stroke-width="1.2"/>
+      <circle cx="30" cy="23" r="13" fill="#3776AB"/>
+      <text x="30" y="29" fill="#FFD343" font-size="16" font-weight="800" text-anchor="middle">Py</text>
+      <text x="56" y="29" fill="#8fbce0" font-size="16" font-weight="700">Python</text>
+    </g>
+    <!-- C -->
+    <g transform="translate(496,124)">
+      <rect width="100" height="46" rx="12" fill="#12203a" stroke="#00599C" stroke-width="1.2"/>
+      <circle cx="30" cy="23" r="13" fill="#00599C"/>
+      <text x="30" y="30" fill="#fff" font-size="16" font-weight="800" text-anchor="middle">C</text>
+      <text x="56" y="29" fill="#7fb0d8" font-size="16" font-weight="700">C</text>
+    </g>
+
+    <!-- TOOLS -->
+    <text x="40" y="200" fill="#5a6b8c" font-size="13" font-weight="700" letter-spacing="2">FRAMEWORKS &amp; TOOLS</text>
+
+    <g font-size="15" font-weight="600">
+      <g transform="translate(40,216)">
+        <rect width="112" height="42" rx="11" fill="#0f1830" stroke="#243554"/>
+        <text x="56" y="27" fill="#e6edf7" text-anchor="middle">SwiftUI</text>
+      </g>
+      <g transform="translate(164,216)">
+        <rect width="104" height="42" rx="11" fill="#0f1830" stroke="#243554"/>
+        <text x="52" y="27" fill="#e6edf7" text-anchor="middle">Xcode</text>
+      </g>
+      <g transform="translate(280,216)">
+        <rect width="96" height="42" rx="11" fill="#0f1830" stroke="#243554"/>
+        <text x="48" y="27" fill="#e6edf7" text-anchor="middle">Unity</text>
+      </g>
+      <g transform="translate(388,216)">
+        <rect width="104" height="42" rx="11" fill="#0f1830" stroke="#243554"/>
+        <text x="52" y="27" fill="#e6edf7" text-anchor="middle">Docker</text>
+      </g>
+      <g transform="translate(504,216)">
+        <rect width="96" height="42" rx="11" fill="#0f1830" stroke="#243554"/>
+        <text x="48" y="27" fill="#e6edf7" text-anchor="middle">MySQL</text>
+      </g>
+      <g transform="translate(612,216)">
+        <rect width="72" height="42" rx="11" fill="#0f1830" stroke="#243554"/>
+        <text x="36" y="27" fill="#e6edf7" text-anchor="middle">Git</text>
+      </g>
+    </g>
+
+    <!-- ambient scan -->
+    <rect x="1" y="0" width="898" height="2" fill="#0A84FF" opacity="0.6">
+      <animate attributeName="y" values="0;298;0" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.5;0" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1" y="297" width="898" height="2" fill="url(#acc2)"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="430" height="150" viewBox="0 0 430 150" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, SF Pro Display, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="430" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f1830"/><stop offset="1" stop-color="#0b1224"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="428" height="148" rx="16" fill="url(#bg)" stroke="#243554" stroke-width="1.5"/>
+  <rect x="1" y="1" width="5" height="148" rx="2.5" fill="#F05138"/>
+  <text x="28" y="40" fill="#ffffff" font-size="18" font-weight="700">📱 AcademicProjectApp</text>
+  <text x="28" y="70" fill="#9fb0cc" font-size="13.5">Native iOS app built with Swift.</text>
+  <text x="28" y="92" fill="#9fb0cc" font-size="13.5">Course project, clean structure.</text>
+  <g transform="translate(28,110)">
+    <rect width="66" height="24" rx="12" fill="#12203a" stroke="#F05138" stroke-width="1"/>
+    <circle cx="16" cy="12" r="4" fill="#F05138"/>
+    <text x="30" y="16" fill="#ff8a75" font-size="12" font-weight="600">Swift</text>
+  </g>
+  <text x="402" y="30" fill="#3a4a6a" font-size="18" font-weight="700" text-anchor="end">↗</text>
+</svg>

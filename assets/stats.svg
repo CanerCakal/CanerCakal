@@ -1,0 +1,55 @@
+<svg width="900" height="230" viewBox="0 0 900 230" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, SF Pro Display, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="900" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a0e1a"/><stop offset="1" stop-color="#0d1424"/>
+    </linearGradient>
+    <linearGradient id="acc3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F05138"/><stop offset="1" stop-color="#0A84FF"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A84FF"/><stop offset="1" stop-color="#5E5CE6"/>
+    </linearGradient>
+    <clipPath id="c3"><rect x="1" y="1" width="898" height="228" rx="22"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="898" height="228" rx="22" fill="url(#bg3)" stroke="#1c2740" stroke-width="1.5"/>
+  <g clip-path="url(#c3)">
+    <g stroke="#141e33" stroke-width="1">
+      <line x1="300" y1="40" x2="300" y2="200"/><line x1="600" y1="40" x2="600" y2="200"/>
+    </g>
+
+    <text x="40" y="48" fill="#ffffff" font-size="22" font-weight="800">GitHub Activity</text>
+    <rect x="40" y="58" width="52" height="3" rx="1.5" fill="url(#acc3)"/>
+
+    <!-- Total contributions -->
+    <g transform="translate(150,110)">
+      <text x="0" y="0" fill="#ffffff" font-size="52" font-weight="800" text-anchor="middle">227</text>
+      <text x="0" y="30" fill="#e6edf7" font-size="15" font-weight="600" text-anchor="middle">Total Contributions</text>
+      <text x="0" y="54" fill="#5a6b8c" font-size="12" text-anchor="middle">Oct 2025 – Present</text>
+    </g>
+
+    <!-- Current streak (ring) -->
+    <g transform="translate(450,105)">
+      <circle cx="0" cy="0" r="42" fill="none" stroke="#1c2740" stroke-width="6"/>
+      <circle cx="0" cy="0" r="42" fill="none" stroke="url(#ring)" stroke-width="6" stroke-linecap="round"
+        stroke-dasharray="180 84" transform="rotate(-90)">
+        <animate attributeName="stroke-dasharray" values="0 264;180 84" dur="1.4s" fill="freeze"/>
+      </circle>
+      <!-- flame -->
+      <path d="M0 -54 C4 -48 8 -46 6 -40 C10 -44 9 -50 0 -58 C-9 -50 -10 -44 -6 -40 C-8 -46 -4 -48 0 -54Z" fill="#F05138">
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="1.8s" repeatCount="indefinite"/>
+      </path>
+      <text x="0" y="14" fill="#ffffff" font-size="44" font-weight="800" text-anchor="middle">3</text>
+      <text x="0" y="66" fill="#0A84FF" font-size="15" font-weight="700" text-anchor="middle">Current Streak</text>
+      <text x="0" y="88" fill="#5a6b8c" font-size="12" text-anchor="middle">Jul 19 – Jul 21</text>
+    </g>
+
+    <!-- Longest streak -->
+    <g transform="translate(750,110)">
+      <text x="0" y="0" fill="#ffffff" font-size="52" font-weight="800" text-anchor="middle">8</text>
+      <text x="0" y="30" fill="#e6edf7" font-size="15" font-weight="600" text-anchor="middle">Longest Streak</text>
+      <text x="0" y="54" fill="#5a6b8c" font-size="12" text-anchor="middle">Feb 26 – Mar 5</text>
+    </g>
+
+    <rect x="1" y="227" width="898" height="2" fill="url(#acc3)"/>
+  </g>
+</svg>
