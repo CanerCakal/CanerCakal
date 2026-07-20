@@ -1,47 +1,97 @@
-# Hi👋, I'm Caner
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=iOS+Developer;Computer+Engineering+Student;Based+in+K%C3%BCtahya" />
-</p>
+# Hi 👋, I'm Caner
 
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2w1bGd2cW0xb2N0M2F1N3Y2b2RjNnB3b3F0dHZ4b3N4bSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/QssGEmpkyEOhBCb7e1/giphy.gif" width="260" />
-</p>
+**Computer Engineering Student** · **iOS Developer Candidate (Swift)**
 
-## About Me
+*Building projects, learning by doing, improving step by step.*
 
-I am a **Computer Engineering student** who enjoys building projects, learning by doing, and improving myself step by step in software development. I focus on writing clean, understandable code and turning ideas into working applications.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/caner-çakal-674578351)
+[![Gmail](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:canercakalofficial@gmail.com)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@canercakalofficial)
+![Profile Views](https://komarev.com/ghpvc/?username=CanerCakal&color=58a6ff&style=flat-square&label=Profile+Views)
 
-* 🎓 Computer Engineering Student
-* 💻 Interested in Software Development
-* 🎯 Goal: Become a versatile and well-rounded software developer
+</div>
 
-## 🛠️ Technologies & Tools
+---
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,git,github,docker,mysql,swift" />
-</p>
+### About Me
 
-## 🐍 Contribution Snake
+I'm a Computer Engineering student focused on writing clean, understandable code and turning ideas into working applications. I care about solid architecture, clear version control, and documenting the decisions — and mistakes — behind what I build.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/CanerCakal/CanerCakal/output/github-contribution-grid-snake-dark.svg" />
-</p>
+- 🎓 &nbsp; Computer Engineering Student @ Dumlupınar University
+- 📱 &nbsp; Mostly building with **Swift / iOS** — also into game dev with **Unity (C#)**
+- 🧩 &nbsp; I love solving problems step by step
+- 🚀 &nbsp; Goal: become a versatile, well-rounded software developer
+- ✍️ &nbsp; I write about dev & CS on [Medium](https://medium.com/@canercakalofficial)
 
-## 🌐 Connect With Me
+---
 
-<p align="center">
-  <a href="https://github.com/CanerCakal"><img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github" /></a>
-</p>
+### Tech & Tools
 
-## ✨ Personal Touch
+**Languages**
 
-* I love learning by building
-* I enjoy solving problems step by step
-* Always open to feedback and collaboration
+![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
+![C%23](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
-<p align="center">
-  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="180" />
-</p>
+**Frameworks & Tools**
 
-> *"Code, learn, improve, repeat."*
+![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+---
+
+### GitHub Stats
+
+<div align="center">
+
+![Caner's GitHub stats](https://github-readme-stats.vercel.app/api?username=CanerCakal&show_icons=true&hide_border=true&theme=dark&icon_color=58a6ff&title_color=58a6ff&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CanerCakal&layout=compact&hide_border=true&theme=dark&title_color=58a6ff&langs_count=8)
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=CanerCakal&hide_border=true&theme=dark&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff)
+
+</div>
+
+---
+
+### Featured Projects
+
+<div align="center">
+
+[![elden-oracle](https://github-readme-stats.vercel.app/api/pin/?username=CanerCakal&repo=elden-oracle&hide_border=true&theme=dark&title_color=58a6ff&icon_color=58a6ff)](https://github.com/CanerCakal/elden-oracle)
+[![RhythmEscape](https://github-readme-stats.vercel.app/api/pin/?username=CanerCakal&repo=RhythmEscape&hide_border=true&theme=dark&title_color=58a6ff&icon_color=58a6ff)](https://github.com/CanerCakal/RhythmEscape)
+
+[![AcademicProjectAppwithSwift](https://github-readme-stats.vercel.app/api/pin/?username=CanerCakal&repo=AcademicProjectAppwithSwift&hide_border=true&theme=dark&title_color=58a6ff&icon_color=58a6ff)](https://github.com/CanerCakal/AcademicProjectAppwithSwift)
+[![coursematch](https://github-readme-stats.vercel.app/api/pin/?username=CanerCakal&repo=coursematch&hide_border=true&theme=dark&title_color=58a6ff&icon_color=58a6ff)](https://github.com/CanerCakal/coursematch)
+
+</div>
+
+> 🧠 **elden-oracle** — a locally-running RAG assistant answering Elden Ring lore, with a clear RAG-on vs. RAG-off contrast (sourced answers vs. hallucination).
+> 🎮 **RhythmEscape** — a Unity (C#) game project.
+> 📱 **AcademicProjectAppwithSwift** — an iOS app built in Swift for a course project.
+> 🐍 **coursematch** — a Python project.
+
+---
+
+### Contribution Snake
+
+<div align="center">
+
+![Snake animation](https://raw.githubusercontent.com/CanerCakal/CanerCakal/output/github-contribution-grid-snake-dark.svg)
+
+</div>
+
+---
+
+<div align="center">
+
+*"Code, learn, improve, repeat."*
+
+</div>
