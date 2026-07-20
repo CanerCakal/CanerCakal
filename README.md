@@ -1,6 +1,8 @@
 <div align="center">
+  <img src="./header.svg" alt="Caner Çakal" width="100%"/>
+</div>
 
-# Hi 👋, I'm Caner
+# Hi, I'm Caner
 
 **Computer Engineering Student** · **iOS Developer Candidate (Swift)**
 
