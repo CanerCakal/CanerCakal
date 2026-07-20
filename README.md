@@ -6,10 +6,15 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/caner-çakal-674578351)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:canercakalofficial@gmail.com)
-[![Medium](https://img.shields.io/badge/Medium-000000?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@canercakalofficial)
-![Profile Views](https://komarev.com/ghpvc/?username=CanerCakal&color=0A84FF&style=flat-square&label=Profile+Views)
+<a href="https://www.linkedin.com/in/caner-çakal-674578351"><img src="./assets/social/linkedin.svg" height="40"/></a>
+&nbsp;
+<a href="mailto:canercakalofficial@gmail.com"><img src="./assets/social/email.svg" height="40"/></a>
+&nbsp;
+<a href="https://medium.com/@canercakalofficial"><img src="./assets/social/medium.svg" height="40"/></a>
+&nbsp;
+<a href="https://github.com/CanerCakal"><img src="./assets/social/github.svg" height="40"/></a>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=CanerCakal&color=0A84FF&style=for-the-badge&label=VIEWS" height="40"/>
 
 </div>
 

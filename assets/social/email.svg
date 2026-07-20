@@ -1,0 +1,5 @@
+<svg width="130" height="44" viewBox="0 0 130 44" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, SF Pro Display, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <rect x="1" y="1" width="128" height="42" rx="12" fill="#0f1830" stroke="#243554" stroke-width="1.4"/>
+  <rect x="16" y="14" width="22" height="16" rx="3" fill="none" stroke="#EA4335" stroke-width="2"/><path d="M16 16 L27 24 L38 16" fill="none" stroke="#EA4335" stroke-width="2"/>
+  <text x="48" y="27" fill="#e6edf7" font-size="14.5" font-weight="600">Email</text>
+</svg>
