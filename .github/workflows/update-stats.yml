@@ -2,9 +2,9 @@ name: Update GitHub Stats Card
 
 on:
   schedule:
-    # Her Pazartesi 06:00 UTC
+    # Runs every Monday at 06:00 UTC
     - cron: "0 6 * * 1"
-  workflow_dispatch:  # Actions sekmesinden elle tetikleme
+  workflow_dispatch:  # allows manual trigger from the Actions tab
 
 permissions:
   contents: write
@@ -21,19 +21,20 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Regenerate stats.svg
+      - name: Regenerate stats.svg and profile.svg
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
           OUT_PATH: assets/stats.svg
+          PROFILE_OUT_PATH: assets/social/profile.svg
         run: python scripts/update_stats.py
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet assets/stats.svg; then
-            git add assets/stats.svg
+          git add assets/stats.svg assets/social/profile.svg
+          if ! git diff --cached --quiet; then
             git commit -m "chore: weekly stats update"
             git push
           else
