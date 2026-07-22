@@ -13,8 +13,10 @@
 <a href="https://medium.com/@canercakalofficial"><img src="./assets/social/medium.svg" height="40"/></a>
 &nbsp;
 <a href="https://github.com/CanerCakal"><img src="./assets/social/github.svg" height="40"/></a>
-&nbsp;
-<img src="https://komarev.com/ghpvc/?username=CanerCakal&color=0A84FF&style=for-the-badge&label=VIEWS" height="40"/>
+
+<br/><br/>
+
+<img src="./assets/social/profile.svg" height="40"/>
 
 </div>
 
