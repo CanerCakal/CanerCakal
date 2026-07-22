@@ -200,3 +200,103 @@ with open(OUT, "w", encoding="utf-8") as f:
     f.write(svg)
 
 print(f"Wrote {OUT}: total={total_contributions} current={current_streak} longest={longest_streak}")
+
+
+# ---------------------------------------------------------------
+# Profile badge: followers / public repos / total stars
+# ---------------------------------------------------------------
+PROFILE_OUT = os.environ.get("PROFILE_OUT_PATH", "assets/social/profile.svg")
+
+PQ = """
+query($login:String!){
+  user(login:$login){
+    followers{ totalCount }
+    repositories(first:100, ownerAffiliations:OWNER, privacy:PUBLIC, isFork:false){
+      totalCount
+      nodes{ stargazerCount }
+    }
+  }
+}
+"""
+
+pdata = gql(PQ, {"login": USER})
+puser = pdata.get("data", {}).get("user", {}) or {}
+followers = puser.get("followers", {}).get("totalCount", 0)
+repos_node = puser.get("repositories", {}) or {}
+repo_count = repos_node.get("totalCount", 0)
+stars = sum(n.get("stargazerCount", 0) for n in (repos_node.get("nodes") or []))
+
+
+def tw(text, size):
+    """Rough text width estimate for layout."""
+    return len(str(text)) * size * 0.58
+
+
+# Build segments with dynamic x positions so numbers of any length fit
+segments = [
+    ("followers", followers, "#0A84FF"),
+    ("repos", repo_count, "#5E5CE6"),
+    ("stars", stars, "#F05138"),
+]
+
+pad = 18
+gap_icon = 24
+gap_label = 6
+sep_gap = 14
+
+parts = []
+x = pad
+seps = []
+for i, (label, value, color) in enumerate(segments):
+    num_w = tw(value, 15)
+    lab_w = tw(label, 12.5)
+    if i == 0:
+        icon = (
+            f'<circle cx="{x+8}" cy="18" r="4" fill="none" stroke="{color}" stroke-width="1.6"/>'
+            f'<path d="M{x+1} 30 C{x+1} 24 {x+15} 24 {x+15} 30" fill="none" stroke="{color}" stroke-width="1.6" stroke-linecap="round"/>'
+        )
+    elif i == 1:
+        icon = (
+            f'<rect x="{x+1}" y="13" width="14" height="17" rx="2.5" fill="none" stroke="{color}" stroke-width="1.6"/>'
+            f'<line x1="{x+5}" y1="13" x2="{x+5}" y2="30" stroke="{color}" stroke-width="1.4"/>'
+        )
+    else:
+        icon = (
+            f'<path d="M{x+8} 11 L{x+10.2} 16.3 L{x+16} 16.8 L{x+11.6} 20.5 L{x+13} 26.1 '
+            f'L{x+8} 23.1 L{x+3} 26.1 L{x+4.4} 20.5 L{x} 16.8 L{x+5.8} 16.3 Z" '
+            f'fill="none" stroke="{color}" stroke-width="1.5" stroke-linejoin="round"/>'
+        )
+    nx = x + gap_icon
+    lx = nx + num_w + gap_label
+    parts.append(
+        f'{icon}'
+        f'<text x="{round(nx,1)}" y="27" fill="#e6edf7" font-size="15" font-weight="700">{value}</text>'
+        f'<text x="{round(lx,1)}" y="27" fill="#5a6b8c" font-size="12.5" font-weight="500">{label}</text>'
+    )
+    x = lx + lab_w + sep_gap
+    if i < len(segments) - 1:
+        seps.append(round(x, 1))
+        x += sep_gap
+
+total_w = round(x - sep_gap + pad, 0)
+
+sep_svg = "".join(
+    f'<line x1="{s}" y1="13" x2="{s}" y2="31" stroke="#243554" stroke-width="1"/>' for s in seps
+)
+
+profile_svg = (
+    f'<svg width="{int(total_w)}" height="44" viewBox="0 0 {int(total_w)} 44" fill="none" '
+    f'xmlns="http://www.w3.org/2000/svg" '
+    f'font-family="-apple-system, SF Pro Display, Segoe UI, Roboto, Helvetica, Arial, sans-serif">'
+    f'<rect x="1" y="1" width="{int(total_w)-2}" height="42" rx="12" fill="#0f1830" '
+    f'stroke="#243554" stroke-width="1.4"/>'
+    f'{sep_svg}'
+    f'{"".join(parts)}'
+    f'</svg>'
+)
+
+os.makedirs(os.path.dirname(PROFILE_OUT), exist_ok=True)
+with open(PROFILE_OUT, "w", encoding="utf-8") as f:
+    f.write(profile_svg)
+
+print(f"Wrote {PROFILE_OUT}: followers={followers} repos={repo_count} stars={stars}")
