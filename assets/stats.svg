@@ -20,23 +20,23 @@
     <rect x="40" y="58" width="52" height="3" rx="1.5" fill="url(#acc3)"/>
 
     <g transform="translate(150,110)">
-      <text x="0" y="0" fill="#ffffff" font-size="52" font-weight="800" text-anchor="middle">225</text>
+      <text x="0" y="0" fill="#ffffff" font-size="52" font-weight="800" text-anchor="middle">236</text>
       <text x="0" y="30" fill="#e6edf7" font-size="15" font-weight="600" text-anchor="middle">Total Contributions</text>
-      <text x="0" y="54" fill="#5a6b8c" font-size="12" text-anchor="middle">Jul 21 – Present</text>
+      <text x="0" y="54" fill="#5a6b8c" font-size="12" text-anchor="middle">Jul 23 – Present</text>
     </g>
 
     <g transform="translate(450,105)">
       <circle cx="0" cy="0" r="42" fill="none" stroke="#1c2740" stroke-width="6"/>
       <circle cx="0" cy="0" r="42" fill="none" stroke="url(#ring)" stroke-width="6" stroke-linecap="round"
-        stroke-dasharray="17.6 246.3" transform="rotate(-90)">
-        <animate attributeName="stroke-dasharray" values="0 263.9;17.6 246.3" dur="1.4s" fill="freeze"/>
+        stroke-dasharray="35.2 228.7" transform="rotate(-90)">
+        <animate attributeName="stroke-dasharray" values="0 263.9;35.2 228.7" dur="1.4s" fill="freeze"/>
       </circle>
       <path d="M0 -54 C4 -48 8 -46 6 -40 C10 -44 9 -50 0 -58 C-9 -50 -10 -44 -6 -40 C-8 -46 -4 -48 0 -54Z" fill="#F05138">
         <animate attributeName="opacity" values="0.7;1;0.7" dur="1.8s" repeatCount="indefinite"/>
       </path>
-      <text x="0" y="14" fill="#ffffff" font-size="44" font-weight="800" text-anchor="middle">2</text>
+      <text x="0" y="14" fill="#ffffff" font-size="44" font-weight="800" text-anchor="middle">4</text>
       <text x="0" y="66" fill="#0A84FF" font-size="15" font-weight="700" text-anchor="middle">Current Streak</text>
-      <text x="0" y="88" fill="#5a6b8c" font-size="12" text-anchor="middle">Jul 19 – Jul 20</text>
+      <text x="0" y="88" fill="#5a6b8c" font-size="12" text-anchor="middle">Jul 19 – Jul 22</text>
     </g>
 
     <g transform="translate(750,110)">
